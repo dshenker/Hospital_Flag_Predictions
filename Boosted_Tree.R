@@ -1,3 +1,5 @@
+#Trying out a boosted tree on the data
+
 require(gbm)
 library(data.table) 
 data_pat <- as.data.table(readRDS(file = '/Users/dshenker/Desktop/Kharrazi_ML_Materials/data/data_pat_clean.rds')) # loading the data -- please adjust path to file based on your folder structure
